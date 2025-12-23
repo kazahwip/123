@@ -1,3 +1,4 @@
+#!/bin/bash
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
@@ -19,7 +20,7 @@ read_input_yn() {
     echo
 }
 
-REPO_URL="https://github.com/bilbo111/3xui-shopbot.git
+REPO_URL="https://github.com/bilbo111/3xui-shopbot.git"
 PROJECT_DIR="3xui-shopbot"
 NGINX_CONF_FILE="/etc/nginx/sites-available/${PROJECT_DIR}.conf"
 
