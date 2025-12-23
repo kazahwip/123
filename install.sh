@@ -90,7 +90,7 @@ echo -e "${GREEN}✔ Репозиторий готов.${NC}"
 
 echo -e "\n${CYAN}Шаг 3: Настройка домена и получение SSL-сертификатов...${NC}"
 
-read_input "Введите ваш домен (например, my-vpn-shop.com): " USER_INPUT_DOMAIN
+read -p "Введите ваш домен (например, my-vpn-shop.com): " USER_INPUT_DOMAIN
 
 if [ -z "$USER_INPUT_DOMAIN" ]; then
     echo -e "${RED}Ошибка: Домен не может быть пустым. Установка прервана.${NC}"
